@@ -25,7 +25,7 @@ Office Hours
 
 Patrick and Sebastian will have scheduled office hours, and it is expected that you will meet with one of them for a half hour every other week.
 
-If commuting is an issue, we can make arrangements to talk over Skype or Google Hangout.
+Office hours will generally be held over Google Hangout or Skype. If needed, arrangements can be made to meet in person at the GA campus.
 
 More information is forthcoming regarding scheduling.
 
