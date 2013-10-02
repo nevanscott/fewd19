@@ -7,13 +7,16 @@ body {
 	padding: 5%;
 }
 a {
-	color: #C00;
-}
-a:hover {
-	color: #E00;
+	color: inherit;
 	-webkit-transition: color 300ms;
 	-moz-transition: color 300ms;
 	transition: color 300ms;
+}
+a:hover {
+	color: #E00;
+}
+header a {
+	text-decoration: none;
 }
 
 #main {
