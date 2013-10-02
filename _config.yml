@@ -1,3 +1,4 @@
+baseurl: 'http://ga-students.github.io/FEWD_NYC_19'
 markdown: redcarpet
 redcarpet:
   extensions:
