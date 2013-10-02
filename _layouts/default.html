@@ -1,12 +1,47 @@
+---
+sidebar: |
+  Useful Links
+  ------------
+  
+  [Chat Room](http://tlk.io/fewd19)
+  [Schoology](http://classroom.generalassemb.ly/course/65186631/materials)
+  
+  Get in Touch
+  ------------
+  
+  **Daniella Kisza**
+  Producer
+  daniella@generalassemb.ly
+  
+  **Charmaine Lacsina**
+  Producer
+  charmaine@generalassemb.ly  
+---
 <!doctype html>
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>General Assembly • Front-end Web Development 19</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>General Assembly • Front-End Web Development 19</title>
+	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/normalize.css">
+	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/syntax.css">
 </head>
 <body>
 
+<header>
+	<h1><a href="{{ site.baseurl }}">FEWD 19 @ GA</a></h1>
+</header>
+
+<section id="main">
 {{ content }}
+</section>
+
+<aside id="secondary">
+{{ page.sidebar | markdownify }}
+</aside>
+
+<footer></footer>
 
 </body>
 </html>
