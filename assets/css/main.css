@@ -1,26 +1,39 @@
 /* General */
 
 body {
-	font-family: sans-serif;
+	font-family: charter, serif;
 	font-size: 100%;
 	line-height: 1.5;
-	padding: 5%;
+	padding: 0 5% 10%;
+	border-top: 5px solid black;
 }
 a {
 	color: inherit;
+}
+.loaded a {
 	-webkit-transition: color 300ms;
 	-moz-transition: color 300ms;
 	transition: color 300ms;
 }
-a:hover {
+a:hover, a:focus, a:active {
 	color: #E00;
+	outline: none;
 }
+
 header a {
 	text-decoration: none;
+}
+header small {
+	color: #AAA;
+	font-size: 1em;
 }
 
 #main {
 	border-top: 3px solid black;
+}
+
+footer {
+	clear: both;
 }
 
 pre, code {
@@ -42,10 +55,16 @@ pre code {
 
 #secondary h2 {
 	font-size: 1em;
-	border-top: 3px solid black;
+	border-top: 2px solid black;
 	border-bottom: 1px solid rgba(0,0,0,.125);
 	padding: .2em 0;
 	margin-top: 2em;
+}
+#main-nav {
+	border-top: 3px solid black;
+	padding: .5em 0;
+	margin-bottom: 1.5em;
+	font-weight: bold;
 }
 
 .highlight {
@@ -56,15 +75,31 @@ pre code {
 	margin: 1em 0;
 }
 
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul li {
+	margin: 0;
+	padding: 0;
+}
+
 /* Bigger Screens */
 
+@media screen and (min-width: 30em) {
+	body {
+		font-size: 120%;
+	}
+}
 @media screen and (min-width: 55em) {
 	#main {
 		float: left;
 		width: 65%;
 	}
-	#secondary {
+	#main-nav, #secondary {
 		float: right;
+		clear: right;
 		width: 30%;
 	}
 	#secondary h2:first-child {

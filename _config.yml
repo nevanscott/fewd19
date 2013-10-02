@@ -3,4 +3,5 @@ markdown: redcarpet
 redcarpet:
   extensions:
     - 'autolink'
+    - 'smarty'
     - 'hard_wrap'
