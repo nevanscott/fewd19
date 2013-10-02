@@ -2,8 +2,10 @@
 layout: default
 ---
 
-<h2>General Assembly</h2>
-<h1>Front-end Web Development</h1>
-<h4>Course 19 • NYC</h4>
+## General Assembly
+
+# Front-end Web Development
+
+#### Course 19 • NYC
 
 This is just a test.
