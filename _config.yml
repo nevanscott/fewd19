@@ -1,4 +1,5 @@
 baseurl: '/FEWD_NYC_19'
+permalink: /:categories/:title/
 markdown: redcarpet
 redcarpet:
   extensions:

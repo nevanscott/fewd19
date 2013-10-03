@@ -20,6 +20,10 @@ a:hover, a:focus, a:active {
 	outline: none;
 }
 
+small {
+	color: #AAA;
+}
+
 header a {
 	text-decoration: none;
 }
@@ -38,6 +42,10 @@ footer {
 
 pre, code {
 	font-family: monospace;
+}
+
+pre {
+	
 }
 
 code {
