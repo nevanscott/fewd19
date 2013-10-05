@@ -1,11 +1,9 @@
 ---
-layout: default
-permalink: agenda/
+layout: agenda
+title: HTML Basics
 ---
 
-## Wednesday, Oct. 2
-
-### Agenda
+## Agenda
 
 * Intros and Orientation
 * Ice Breaker
@@ -18,7 +16,7 @@ Today's class is primarily about getting situated and setting the stage for the 
 
 In this class, we're at an advantage: we have a built-in group of peers. Everyone will be coming in with different experiences, which means everyone will have a unique perspective to bring to the table. Let's press our advantage by working together.
 
-### Starter Files
+## Starter Files
 
 For most classes, we'll have some files to get you started on work we might do together, in groups or pairs, or individually as labs. For today, here are the first installments:
 
@@ -28,7 +26,7 @@ For most classes, we'll have some files to get you started on work we might do t
 
 We'll discuss what to do with these in class. For now don't sweat it.
 
-### Before Class
+## Before Class
 
 Make sure you have downloaded a copy of [Sublime Text](http://www.sublimetext.com/). You'll want version 2.0. This is the text editor we'll all be using in class, just so we're on the same page. There are a lot of great text editors out there.
 
