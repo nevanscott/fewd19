@@ -51,4 +51,4 @@ If you have some extra time, try looking up some newer HTML elements, such as:
 
 If you have even more time, have a look at the [HTML5 Reference](http://dev.w3.org/html5/html-author/) provided by the W3C. Try looking up the same HTML elements (tags) listed above.
 
-The W3C, or Worldwide Web Consortium, is the governing body for most web standards, especially HTML and CSS. They are responsible for maintaining the specifications for these languages, and having a standards body (with all its ups and downs) is part of what makes the web on the one hand enormously successful, and on the other hand sometimes frustrating to author.
+The W3C, or World Wide Web Consortium, is the governing body for most web standards, especially HTML and CSS. They are responsible for maintaining the specifications for these languages, and having a standards body (with all its ups and downs) is part of what makes the web on the one hand enormously successful, and on the other hand sometimes frustrating to author.
