@@ -28,7 +28,7 @@ Give the folder your name instead of mine, but please stick to using lowercase a
 
 **[Check out this example]({{ site.baseurl }}/projects/wendy_bite_markup/)** that we'll be working on next week, and you'll get the idea.
 
-When you are finished, make a `.zip` of your project folder and upload it to the "dropbox" for the assignment on Schoology. (Not to be confused with the Dropbox file sharing service.)
+When you are finished, make a `.zip` of your project folder and upload it to the "Dropbox" for the assignment on Schoology. (Not to be confused with the Dropbox file sharing service.)
 
 Links
 -----
