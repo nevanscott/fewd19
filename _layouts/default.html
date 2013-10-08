@@ -5,17 +5,6 @@ sidebar: |
   
   [Chat Room](http://tlk.io/fewd19)
   [Schoology](http://classroom.generalassemb.ly/course/65186631/materials)
-  
-  Get in Touch
-  ------------
-  
-  **Daniella Kisza**
-  Producer
-  daniella@generalassemb.ly
-  
-  **Charmaine Lacsina**
-  Producer
-  charmaine@generalassemb.ly  
 ---
 <!doctype html>
 <html>
@@ -45,14 +34,35 @@ sidebar: |
 
 <nav id="main-nav">
 	<ul>
-		<li><a href="{{ site.baseurl }}/agenda/">On the Agenda</a></li>
-		<li><a href="{{ site.baseurl }}/homework/">Homework Assignments</a></li>
 		<li><a href="{{ site.baseurl }}/about/">About the Course</a></li>
+		<li><a href="{{ site.baseurl }}/contact/">Get in Touch</a></li>
 	</ul>
 </nav>
 
 <aside id="secondary">
-{{ page.sidebar | markdownify }}
+	
+	<h2>On the Agenda</h2>
+	<ul>
+	{% for post in site.categories.agenda %}
+		<li>
+			<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | textilize | strip_html }}</a>
+			<small>{{ post.date | date: "%b. %-d, %Y" }}</small>
+		</li>
+	{% endfor %}
+	</ul>
+	
+	<h2>Homework Assignments</h2>
+	<ul>
+	{% for post in site.categories.homework %}
+		<li>
+			<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | textilize | strip_html }}</a>
+			<small>due {{ post.date | date: "%b. %-d, %Y" }}</small>
+		</li>
+	{% endfor %}
+	</ul>
+	
+	{{ page.sidebar | markdownify }}
+
 </aside>
 
 <footer></footer>
