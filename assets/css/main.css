@@ -4,9 +4,13 @@ body {
 	font-family: Charter, serif;
 	font-size: 100%;
 	line-height: 1.5;
-	padding: 0 5% 10%;
-	border-top: 5px solid black;
+	padding: 0 0 10%;
 }
+
+#main, #main-nav, #secondary {
+	margin: 0 5%;
+}
+
 a {
 	color: inherit;
 }
@@ -14,6 +18,11 @@ a {
 	-webkit-transition: color 300ms;
 	-moz-transition: color 300ms;
 	transition: color 300ms;
+}
+.loaded header h1 a {
+	-webkit-transition: all 300ms;
+	-moz-transition: all 300ms;
+	transition: all 300ms;
 }
 a:hover, a:focus, a:active {
 	color: #E00;
@@ -53,24 +62,34 @@ ul {
 small {
 	font-family: franklin, sans-serif;
 	color: #AAA;
+	white-space: nowrap;
 }
 
 header h1 {
 	font-family: charter, serif;
 	border-bottom: none;
+	margin: 0;
+	padding: 0;
 }
-header a {
+header h1 a {
 	text-decoration: none;
+	display: block;
+	background: #444;
+	color: white;
+	padding: 0 5%;
 }
-header small {
+header h1 a small {
 	color: #AAA;
 	font-size: 1em;
 	font-weight: normal;
 	float: none;
 }
+header h1 a:hover {
+	color: white;
+	background: black;
+}
 
 #main {
-	border-top: 3px solid black;
 }
 
 footer {
@@ -98,6 +117,9 @@ pre code {
 	padding: 0;
 }
 
+#secondary {
+	color: #555;
+}
 #secondary h2 {
 	font-family: franklin, sans-serif;
 	font-weight: normal;
@@ -106,10 +128,21 @@ pre code {
 	padding: .2em 0;
 	margin-top: 2em;
 }
+#secondary ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#secondary ul li {
+	margin: 0;
+	padding: 0;
+}
 #main-nav {
-	border-top: 3px solid black;
+	color: #555;
+	border-top: 2px solid black;
 	padding: .5em 0;
-	margin: 3em 0 1.5em;
+	margin-top: 5em;
+	margin-bottom: 1.5em;
 	font-weight: bold;
 }
 
@@ -139,17 +172,40 @@ nav ul li {
 	}
 }
 @media screen and (min-width: 55em) {
+	body {
+		padding-left: 3em;
+		padding-top: 1.5em;
+	}
+	header {
+		position: fixed;
+		top: -3em;
+		left: 0;
+		width: 100%;
+		-webkit-transform-origin: 0 3em;
+		-moz-transform-origin:    0 3em;
+		-ms-transform-origin:     0 3em;
+		-o-transform-origin:      0 3em;
+		-webkit-transform: rotate(90deg); 
+		-moz-transform:    rotate(90deg); 
+		-ms-transform:     rotate(90deg); 
+		-o-transform:      rotate(90deg); 
+	}
+	header h1 a {
+		padding: 0 0 0 1em;
+	}
 	#main {
 		float: left;
-		width: 65%;
+		width: 60%;
+		margin-right: 0;
 	}
 	#main-nav {
-		margin-top: 0;
+		margin-top: 2em;
+		border-top: none;
 	}
 	#main-nav, #secondary {
 		float: right;
 		clear: right;
-		width: 30%;
+		width: 25%;
 	}
 	#secondary h2:first-child {
 		margin-top: 0;
