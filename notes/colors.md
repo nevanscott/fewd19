@@ -2,6 +2,8 @@
 layout: default
 title: Colors in CSS
 permalink: colors/
+categories: notes
+tags: CSS
 ---
 
 Colors in CSS

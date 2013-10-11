@@ -2,6 +2,8 @@
 layout: default
 title: Images
 permalink: images/
+categories: notes
+tags: HTML
 ---
 
 Images

@@ -5,6 +5,10 @@ sidebar: |
   
   * [Chat Room](http://tlk.io/fewd19)
   * [Schoology](http://classroom.generalassemb.ly/course/65186631/materials)
+notes:
+  - colors
+  - images
+  - css-placement
 ---
 <!doctype html>
 <html>
@@ -63,8 +67,14 @@ sidebar: |
 	
 	<h2>Notes</h2>
 	<ul>
-		<li><a href="{{ site.baseurl }}/notes/colors/">Colors in CSS</a></li>
-		<li><a href="{{ site.baseurl }}/notes/images/">Images</a></li>
+	{% for note in page.notes %}
+		{% capture url %}/notes/{{ note }}/{% endcapture %}
+		{% for page in site.pages %}
+			{% if page.url == url %}
+				<li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+			{% endif %}
+		{% endfor %}
+	{% endfor %}
 	</ul>
 	
 	{{ page.sidebar | markdownify }}
