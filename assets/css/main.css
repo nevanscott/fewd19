@@ -20,16 +20,53 @@ a:hover, a:focus, a:active {
 	outline: none;
 }
 
+h1 {
+	font-family: franklin, sans-serif;
+	font-weight: 800;
+	border-bottom: 1px solid #CCC;
+}
+h1 small {
+	float: right;
+	margin-top: .2em;
+	font-weight: bold;
+}
+h2 {
+	margin-top: 1.5em;
+}
+h3 {
+	margin-top: 1.5em;
+	font-family: franklin, sans-serif;
+}
+h4 {
+	margin-top: 2em;
+	font-family: franklin, sans-serif;
+	font-weight: 800;
+	color: #888;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+}
+
+ul {
+	list-style: square;
+}
+
 small {
+	font-family: franklin, sans-serif;
 	color: #AAA;
 }
 
+header h1 {
+	font-family: charter, serif;
+	border-bottom: none;
+}
 header a {
 	text-decoration: none;
 }
 header small {
 	color: #AAA;
 	font-size: 1em;
+	font-weight: normal;
+	float: none;
 }
 
 #main {
@@ -62,14 +99,15 @@ pre code {
 }
 
 #secondary h2 {
+	font-family: franklin, sans-serif;
+	font-weight: normal;
 	font-size: 1em;
-	border-top: 2px solid black;
 	border-bottom: 1px solid rgba(0,0,0,.125);
 	padding: .2em 0;
 	margin-top: 2em;
 }
 #main-nav {
-	border-top: 3px solid black;
+	border-top: 3px solid rgba(0,0,0,.25);
 	padding: .5em 0;
 	margin: 3em 0 1.5em;
 	font-weight: bold;
