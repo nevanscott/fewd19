@@ -86,7 +86,7 @@ header h1 a small {
 }
 header h1 a:hover {
 	color: white;
-	background: black;
+	background: #333;
 }
 
 #main {
