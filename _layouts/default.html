@@ -50,12 +50,15 @@ notes:
 	
 	<h2>On the Agenda</h2>
 	<ul>
-	{% for post in site.categories.agenda %}
+		{% for post in site.categories.agenda limit:5 %}
+			<li>
+				<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | textilize | strip_html }}</a>
+				<small>{{ post.date | date: "%b. %-d, %Y" }}</small>
+			</li>
+		{% endfor %}
 		<li>
-			<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | textilize | strip_html }}</a>
-			<small>{{ post.date | date: "%b. %-d, %Y" }}</small>
+			<a href="{{ site.baseurl }}/agenda/">All</a>
 		</li>
-	{% endfor %}
 	</ul>
 	
 	<h2>Homework Assignments</h2>
