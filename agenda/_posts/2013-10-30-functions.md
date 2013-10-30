@@ -21,3 +21,11 @@ A twist on the old classic. We'll build out a version of this game that lets a h
 ### Cash Register <small>([download]({{ site.baseurl }}/starters/cash_register.zip)) ([preview]({{ site.baseurl }}/projects/cash_register/))</small>
 
 We'll start to explore a bit more interactivity in this bare-bones cash register example.
+
+
+Further Reading
+---------------
+
+Eloquent JavaScript, Chapter 3: [Functions](http://eloquentjavascript.net/chapter3.html)
+
+[Functions and function scope](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope) at Mozilla Developer Network
