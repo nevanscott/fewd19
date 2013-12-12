@@ -1,4 +1,4 @@
-baseurl: '/fewd19'
+baseurl: '/FEWD_NYC_19'
 permalink: /:categories/:title/
 markdown: redcarpet
 redcarpet:
