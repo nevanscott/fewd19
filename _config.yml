@@ -1,4 +1,3 @@
-baseurl: '/fewd19'
 permalink: /:categories/:title/
 markdown: redcarpet
 redcarpet:

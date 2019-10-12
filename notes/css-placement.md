@@ -1,7 +1,7 @@
 ---
 layout: default
 title: CSS Placement
-permalink: css-placement/
+permalink: /notes/css-placement/
 categories: notes
 tags: CSS
 ---

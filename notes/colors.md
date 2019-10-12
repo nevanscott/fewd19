@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Colors in CSS
-permalink: colors/
+permalink: /notes/colors/
 categories: notes
 tags: CSS
 ---

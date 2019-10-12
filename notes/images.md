@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Images
-permalink: images/
+permalink: /notes/images/
 categories: notes
 tags: HTML
 ---
@@ -30,9 +30,9 @@ Given a folder structure like:
 			photo.jpg
 
 There are different approaches to specifying an image location:
-	
+
 ### Relative
-	
+
 Inside `webroot/index.html`, a relative path could be used like so:
 
 	<img src="images/logo.png">
@@ -44,9 +44,9 @@ Whereas inside `webroot/about/index.html`, the same image would be:
 Note that `..` means to go up a directory, and can be used repeatedly: `../..` would go up two directories.
 
 ### Absolute
-	
+
 Absolute URLs start with a `/`, so if we imagine that our `webroot` directory was stored on a server such that the `webroot/index.html` file is accessible at `http://example.com/index.html`, then placing the logo image could be done from any html page with:
-	
+
 	<img src="/images/logo.png">
 
 The benefit here is that this same `src` path works on any html page, no matter what its location, so the same `img` tag can be used on both the `webroot/index.html` page and the `webroot/about/index.html` page.
@@ -54,9 +54,9 @@ The benefit here is that this same `src` path works on any html page, no matter 
 The downside is that the path only works if the project is stored to a proper location for serving.
 
 ### Full URL
-	
+
 Full URLs can also be used, such as:
-	
+
 	<img src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/397/thumb_User-Experience-Sketching.jpg">
 
 **Note**: For linking to images, make sure that you have permission to use the image in this way. Even then, it is often better to host a copy of the same image, rather than link to another server, because it reduces dependency.

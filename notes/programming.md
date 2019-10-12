@@ -1,28 +1,31 @@
 ---
 layout: default
 title: About Programming
-permalink: programming/
+permalink: /notes/programming/
 categories: notes
 ---
+
+About Programming
+=================
 
 
 Computer will do what we tell them to do.
 
 
 What is a Program
-=================
+-----------------
 
 A __program__ is a set of instructions that you write to tell a computer what to do
 
 
 What is Programming
-===================
+-------------------
 
 __Programming__ is the task of writing those instructions in a language that the computer can understand.
 
 
 Becoming A Programmer
-=====================
+---------------------
 
 It isn't about the programming language. It is about changing how you think.
 
@@ -30,7 +33,7 @@ We have to know how the computer thinks to change how we think.
 
 
 How Computers 'Think'
-=====================
+---------------------
 
 The short answer is that they don't think.
 
@@ -40,7 +43,7 @@ The only things a computer knows are the things we tell it.
 
 
 Pseudo Code
-===========
+-----------
 
 Pseudocode is the process of writing a program without using the syntax of a programming language.
 
