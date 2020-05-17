@@ -2,7 +2,7 @@
 sidebar: |
   Useful Links
   ------------
-  
+
   * [Chat Room](http://tlk.io/fewd19)
   * [Schoology](http://classroom.generalassemb.ly/course/65186631/materials)
 notes:
@@ -48,7 +48,7 @@ notes:
 </nav>
 
 <aside id="secondary">
-	
+
 	<h2>On the Agenda</h2>
 	<ul>
 		{% for post in site.categories.agenda limit:5 %}
@@ -61,7 +61,7 @@ notes:
 			<a href="{{ site.baseurl }}/agenda/">All</a>
 		</li>
 	</ul>
-	
+
 	<h2>Homework Assignments</h2>
 	<ul>
 		{% for post in site.categories.homework limit:3 %}
@@ -74,10 +74,10 @@ notes:
 			<a href="{{ site.baseurl }}/homework/">All</a>
 		</li>
 	</ul>
-	
+
 	<h2>Notes</h2>
 	<ul>
-	{% for note in page.notes %}
+	{% for note in layout.notes %}
 		{% capture url %}/notes/{{ note }}/{% endcapture %}
 		{% for page in site.pages %}
 			{% if page.url == url %}
@@ -86,8 +86,8 @@ notes:
 		{% endfor %}
 	{% endfor %}
 	</ul>
-	
-	{{ page.sidebar | markdownify }}
+
+	{{ layout.sidebar | markdownify }}
 
 </aside>
 
