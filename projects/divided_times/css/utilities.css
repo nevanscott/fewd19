@@ -1,4 +1,4 @@
-/* Clearfix - see http://nicolasgallagher.com/micro-clearfix-hack/ */
+/* Clearfix - see https://nicolasgallagher.com/micro-clearfix-hack/ */
 .group:before,
 .group:after {
     content: " ";

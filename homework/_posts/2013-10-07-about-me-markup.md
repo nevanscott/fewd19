@@ -8,7 +8,7 @@ Assignment
 
 * Make your own 2-page About Me website.
 * Watch General Assembly's *Programming For Non Programmers* <a href="https://generalassemb.ly/online/videos/programming-for-non-programmers-get-started-with-html"> Get Started With HTML</a> video. <small>(You should have received an email with access to Front Row.)</small>
-* Watch the *Don't Fear The Internet* videos: <a href="http://www.dontfeartheinternet.com/the-basics/not-tubes">Not a Series of Tubes</a> and <a href="http://www.dontfeartheinternet.com/html/html">HTML</a>.
+* Watch the *Don't Fear The Internet* videos: <a href="https://www.dontfeartheinternet.com/the-basics/not-tubes">Not a Series of Tubes</a> and <a href="https://www.dontfeartheinternet.com/html/html">HTML</a>.
 
 
 Details
@@ -44,7 +44,7 @@ Let's say we have a paragraph like so:
 The word "website" looks like a good candidate to be a link. Let's add it:
 
 ```html
-<p>Visit the General Assembly <a href="http://generalassemb.ly/">website</a>.</p>
+<p>Visit the General Assembly <a href="https://generalassemb.ly/">website</a>.</p>
 ```
 
 Links use an `a` tag (for "anchor") with an `href` attribute (for "hyper-reference" or something).
@@ -68,13 +68,13 @@ We'll discuss all of this more on Monday.
 
 ### What Web Developers Do
 
-* The Guardian Blog: <a href="http://www.theguardian.com/help/insideguardian/2009/sep/28/blogpost">What is front-end development?</a>
-* [Web Design or Web Development, What’s The Difference?](http://purelybranded.com/insights/web-design-or-web-development-whats-the-difference/)
-* [Redefining Web Designers, Web Developers, and Web Hybrids for the modern market](http://tristandenyer.com/redefining-web-designers-web-developers-and-web-hybrids-for-the-modern-market/). Discussion about the modern web development job market.
+* The Guardian Blog: <a href="https://www.theguardian.com/help/insideguardian/2009/sep/28/blogpost">What is front-end development?</a>
+* [Web Design or Web Development, What’s The Difference?](https://purelybranded.com/insights/web-design-or-web-development-whats-the-difference/)
+* [Redefining Web Designers, Web Developers, and Web Hybrids for the modern market](https://tristandenyer.com/redefining-web-designers-web-developers-and-web-hybrids-for-the-modern-market/). Discussion about the modern web development job market.
 
 ### How The Internet Works
 
-* Video: [How The Internet Works in Five Minutes](http://www.youtube.com/embed/7_LPdttKXPc?rel=0)
-* Video: [How does the Internet work?](http://www.youtube.com/watch?v=oj7A2YDgIWE) - Naked Science Scrapbook
-* Cartoon: [How The Internet Works](http://landofthefreeish.com/pics/how-the-internet-works/)
+* Video: [How The Internet Works in Five Minutes](https://www.youtube.com/embed/7_LPdttKXPc?rel=0)
+* Video: [How does the Internet work?](https://www.youtube.com/watch?v=oj7A2YDgIWE) - Naked Science Scrapbook
+* Cartoon: [How The Internet Works](https://landofthefreeish.com/pics/how-the-internet-works/)
 

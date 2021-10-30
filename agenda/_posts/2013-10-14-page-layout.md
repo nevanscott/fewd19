@@ -35,8 +35,8 @@ Before Class
 
 Floats are difficult to get used to, possibly the mind-fuckiest thing we will work on in class. For that reason, please give these articles a read before class on Monday, preferably twice each:
 
-* [All About Floats](http://css-tricks.com/all-about-floats/) by Chris Coyier
-* [CSS Floats 101](http://alistapart.com/article/css-floats-101) by Noah Stokes
+* [All About Floats](https://css-tricks.com/all-about-floats/) by Chris Coyier
+* [CSS Floats 101](https://alistapart.com/article/css-floats-101) by Noah Stokes
 
 This is funky material, and is a sticky point for everyone (and I mean *everyone*). The truth is that using `float` and `clear` for page layouts is essentially a hack, but for now, it's the best option we have.
 

@@ -74,4 +74,4 @@ Hints and Details
 
 3. You'll want to find a way to keep track of whether the menu is currently open or closed.
 
-4. Remember that inside a `.click()` function, `this` refers to the thing that was clicked. See http://api.jquery.com/click/ for more details.
+4. Remember that inside a `.click()` function, `this` refers to the thing that was clicked. See https://api.jquery.com/click/ for more details.

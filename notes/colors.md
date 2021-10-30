@@ -15,7 +15,7 @@ Colors can be specified in CSS in a variety of ways:
 Color Keywords
 --------------
 
-These are used less frequently, but are handy for basic colors like `black` and `white`. There are quite a few of these, please consult the <a href="http://msdn.microsoft.com/en-us/library/ie/aa358802(v=vs.85).aspx">MSDN Documentation</a> for a more complete list.
+These are used less frequently, but are handy for basic colors like `black` and `white`. There are quite a few of these, please consult the <a href="https://msdn.microsoft.com/en-us/library/ie/aa358802(v=vs.85).aspx">MSDN Documentation</a> for a more complete list.
 
 
 Hex Codes (RGB)

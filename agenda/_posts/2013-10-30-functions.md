@@ -26,6 +26,6 @@ We'll start to explore a bit more interactivity in this bare-bones cash register
 Further Reading
 ---------------
 
-Eloquent JavaScript, Chapter 3: [Functions](http://eloquentjavascript.net/chapter3.html)
+Eloquent JavaScript, Chapter 3: [Functions](https://eloquentjavascript.net/chapter3.html)
 
 [Functions and function scope](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope) at Mozilla Developer Network

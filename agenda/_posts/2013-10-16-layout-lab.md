@@ -32,5 +32,5 @@ Before Class
 
 If you haven't already, please give these a read. If you already have, please re-read. No kidding, floats are hard.
 
-* [All About Floats](http://css-tricks.com/all-about-floats/) by Chris Coyier
-* [CSS Floats 101](http://alistapart.com/article/css-floats-101) by Noah Stokes
+* [All About Floats](https://css-tricks.com/all-about-floats/) by Chris Coyier
+* [CSS Floats 101](https://alistapart.com/article/css-floats-101) by Noah Stokes

@@ -45,7 +45,7 @@ Note that `..` means to go up a directory, and can be used repeatedly: `../..` w
 
 ### Absolute
 
-Absolute URLs start with a `/`, so if we imagine that our `webroot` directory was stored on a server such that the `webroot/index.html` file is accessible at `http://example.com/index.html`, then placing the logo image could be done from any html page with:
+Absolute URLs start with a `/`, so if we imagine that our `webroot` directory was stored on a server such that the `webroot/index.html` file is accessible at `https://example.com/index.html`, then placing the logo image could be done from any html page with:
 
 	<img src="/images/logo.png">
 

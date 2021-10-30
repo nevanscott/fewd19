@@ -20,4 +20,4 @@ Your description need not be overly lengthy, but please try to provide us enough
 
 ### Wireframes
 
-I'm using this term very loosely. These can be some diagrams drawn by hand and scanned, they can be drawn on an iPad using [Paper](http://www.fiftythree.com/paper), whatever works for you. The point is just to show what you're thinking about making.
+I'm using this term very loosely. These can be some diagrams drawn by hand and scanned, they can be drawn on an iPad using [Paper](https://www.fiftythree.com/paper), whatever works for you. The point is just to show what you're thinking about making.

@@ -22,8 +22,8 @@ Details
 
 If you'd like some hopefully helpful guidance, here are my versions of the wireframes that were assigned in class:
 
-* [Wireframe 1](http://codepen.io/nevan/pen/CLhzG)
-* [Wireframe 2](http://codepen.io/nevan/pen/fFHmA)
+* [Wireframe 1](https://codepen.io/nevan/pen/CLhzG)
+* [Wireframe 2](https://codepen.io/nevan/pen/fFHmA)
 
 ### Homework
 
