@@ -3,8 +3,7 @@ layout: homework
 title: Parchment, Stone, or Blade?
 ---
 
-Assignment
-----------
+## Assignment
 
 [Starter Files]({{ site.baseurl }}/homework/parchment_stone_blade.zip) <small>(from class)</small>
 

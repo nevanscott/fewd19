@@ -3,16 +3,13 @@ layout: agenda
 title: Functions
 ---
 
-Agenda
-------
+## Agenda
 
-* Discussion of Functions in JS
-* Build [Parchment, Stone, or Blade?]({{ site.baseurl }}/projects/parchment_stone_blade/)
-* Build [Cash Register]({{ site.baseurl }}/projects/cash_register/)
+- Discussion of Functions in JS
+- Build [Parchment, Stone, or Blade?]({{ site.baseurl }}/projects/parchment_stone_blade/)
+- Build [Cash Register]({{ site.baseurl }}/projects/cash_register/)
 
-
-Starter Files
--------------
+## Starter Files
 
 ### Parchment, Stone, or Blade? <small>([download]({{ site.baseurl }}/starters/parchment_stone_blade.zip)) ([preview]({{ site.baseurl }}/projects/parchment_stone_blade/))</small>
 
@@ -22,9 +19,7 @@ A twist on the old classic. We'll build out a version of this game that lets a h
 
 We'll start to explore a bit more interactivity in this bare-bones cash register example.
 
-
-Further Reading
----------------
+## Further Reading
 
 Eloquent JavaScript, Chapter 3: [Functions](https://eloquentjavascript.net/chapter3.html)
 

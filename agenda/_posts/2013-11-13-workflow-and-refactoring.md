@@ -3,16 +3,13 @@ layout: agenda
 title: Workflow and Refactoring
 ---
 
-Agenda
-------
+## Agenda
 
-* Debugging CSS with Jack
-* Debugging JS with Sebastian
-* Divided Times Nav <small>(lab)</small>
+- Debugging CSS with Jack
+- Debugging JS with Sebastian
+- Divided Times Nav <small>(lab)</small>
 
-
-Starter Files
--------------
+## Starter Files
 
 ### Divided Times <small>([download]({{ site.baseurl }}/starters/divided_times.zip)) ([preview]({{ site.baseurl }}/projects/divided_times/))</small>
 

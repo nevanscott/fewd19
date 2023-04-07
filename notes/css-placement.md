@@ -6,85 +6,80 @@ categories: notes
 tags: CSS
 ---
 
-CSS Placement
-=============
+# CSS Placement
 
-
-Inline CSS
-----------
+## Inline CSS
 
 CSS can be placed inline, like so:
 
 ```html
-<p style="font-weight: bold;">It was the best of times, it was the wurst of times.</p>
+<p style="font-weight: bold;">
+  It was the best of times, it was the wurst of times.
+</p>
 ```
 
 Here, the `style` attribute is given some CSS as its value, in this case changing this one paragraph to be displayed bold.
 
 Don't do this.
 
-
-In the `<head>`
----------------
+## In the `<head>`
 
 We can also put styles in a `<style>` element, generally placed in the `<head>` of a document:
 
 ```html
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Something</title>
-		<style>
-			p {
-				font-weight: bold;
-			}
-		</style>
-	</head>
-	<body>
-		<p>It was the best of times, it was the wurst of times.</p>
-	</body>
+  <head>
+    <title>Something</title>
+    <style>
+      p {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <p>It was the best of times, it was the wurst of times.</p>
+  </body>
 </html>
 ```
 
 This is better, because if we have more than one paragraph, they can all be styled, without having to give each one a `style` attribute.
 
 ```html
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>My Website</title>
-		<style>
-			p {
-				font-weight: bold;
-			}
-		</style>
-	</head>
-	<body>
-		<p>It was the best of times, it was the wurst of times.</p>
-		<p>This paragraph will show up bold as well.</p>
-	</body>
+  <head>
+    <title>My Website</title>
+    <style>
+      p {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <p>It was the best of times, it was the wurst of times.</p>
+    <p>This paragraph will show up bold as well.</p>
+  </body>
 </html>
 ```
 
-
-External Stylesheet
--------------------
+## External Stylesheet
 
 The generally preferred approach is to link to an external CSS file.
 
 `index.html`:
 
 ```html
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>My Website</title>
-		<link rel="stylesheet" href="main.css">
-	</head>
-	<body>
-		<p>It was the best of times, it was the wurst of times.</p>
-		<p>This paragraph will show up bold as well.</p>
-	</body>
+  <head>
+    <title>My Website</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <p>It was the best of times, it was the wurst of times.</p>
+    <p>This paragraph will show up bold as well.</p>
+  </body>
 </html>
 ```
 
@@ -92,7 +87,7 @@ The generally preferred approach is to link to an external CSS file.
 
 ```css
 p {
-	font-weight: bold;
+  font-weight: bold;
 }
 ```
 
@@ -103,16 +98,19 @@ For instance, we might have an About page:
 `about.html`:
 
 ```html
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>About Me | My Website</title>
-		<link rel="stylesheet" href="main.css">
-	</head>
-	<body>
-		<p>Even though this is a different page, it shares styles with the homepage by linking to the same CSS file.</p>
-		<p>Now these paragraphs will be bold as well.</p>
-	</body>
+  <head>
+    <title>About Me | My Website</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <p>
+      Even though this is a different page, it shares styles with the homepage
+      by linking to the same CSS file.
+    </p>
+    <p>Now these paragraphs will be bold as well.</p>
+  </body>
 </html>
 ```
 

@@ -3,15 +3,12 @@ layout: agenda
 title: More jQuery
 ---
 
-Agenda
-------
+## Agenda
 
-* FAQs Project
-* Divided Times Nav <small>(continued)</small>
+- FAQs Project
+- Divided Times Nav <small>(continued)</small>
 
-
-Starter Files
--------------
+## Starter Files
 
 ### Divided Times <small>([download]({{ site.baseurl }}/starters/divided_times.zip)) ([preview]({{ site.baseurl }}/projects/divided_times/))</small>
 

@@ -6,28 +6,28 @@ categories: notes
 tags: HTML
 ---
 
-Images
-======
+# Images
 
 Images are placed using the `<img>` tag.
 
-Specifying an Image
--------------------
+## Specifying an Image
 
 The `img` tag requires a `src` attribute, which tells the browser where to find the image to be placed.
 
 Given a folder structure like:
 
-	webroot/
+```
+webroot/
+	index.html
+	about/
 		index.html
-		about/
-			index.html
-		css/
-			main.css
-		images/
-			background.gif
-			logo.png
-			photo.jpg
+	css/
+		main.css
+	images/
+		background.gif
+		logo.png
+		photo.jpg
+```
 
 There are different approaches to specifying an image location:
 
@@ -35,11 +35,15 @@ There are different approaches to specifying an image location:
 
 Inside `webroot/index.html`, a relative path could be used like so:
 
-	<img src="images/logo.png">
+```html
+<img src="images/logo.png" />
+```
 
 Whereas inside `webroot/about/index.html`, the same image would be:
 
-	<img src="../images/logo.png">
+```html
+<img src="../images/logo.png" />
+```
 
 Note that `..` means to go up a directory, and can be used repeatedly: `../..` would go up two directories.
 
@@ -47,7 +51,9 @@ Note that `..` means to go up a directory, and can be used repeatedly: `../..` w
 
 Absolute URLs start with a `/`, so if we imagine that our `webroot` directory was stored on a server such that the `webroot/index.html` file is accessible at `https://example.com/index.html`, then placing the logo image could be done from any html page with:
 
-	<img src="/images/logo.png">
+```html
+<img src="/images/logo.png" />
+```
 
 The benefit here is that this same `src` path works on any html page, no matter what its location, so the same `img` tag can be used on both the `webroot/index.html` page and the `webroot/about/index.html` page.
 
@@ -57,30 +63,32 @@ The downside is that the path only works if the project is stored to a proper lo
 
 Full URLs can also be used, such as:
 
-	<img src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/397/thumb_User-Experience-Sketching.jpg">
+```html
+<img
+  src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/397/thumb_User-Experience-Sketching.jpg"
+/>
+```
 
 **Note**: For linking to images, make sure that you have permission to use the image in this way. Even then, it is often better to host a copy of the same image, rather than link to another server, because it reduces dependency.
 
-
-Accessibility and SEO
----------------------
+## Accessibility and SEO
 
 To make our images more accessible, we should always strive to include an `alt` attribute as well, a piece of text to be used in lieu of the image when the image is unavailable for some reason, such as
 
-* There was a connection error, the browser didn't download the image.
-* The file was not found, perhaps because the image got moved elsewhere and the page wasn't updated yet to reflect the change.
-* The user is running a text-based browser such as an older phone with a WAP-style browser, or a non-graphical browser like lynx.
-* The user is using a screen reader because she has low vision, which will read the `alt` text aloud or present it through a braille reader.
+- There was a connection error, the browser didn't download the image.
+- The file was not found, perhaps because the image got moved elsewhere and the page wasn't updated yet to reflect the change.
+- The user is running a text-based browser such as an older phone with a WAP-style browser, or a non-graphical browser like lynx.
+- The user is using a screen reader because she has low vision, which will read the `alt` text aloud or present it through a braille reader.
 
 Using `alt` attributes has the added benefit of giving search engines more linguistic context about the image as it is used on your page.
 
 Here's what they look like:
 
-	<img src="puppy.jpg" alt="My cute puppy">
+```html
+<img src="puppy.jpg" alt="My cute puppy" />
+```
 
-
-Image Formats
--------------
+## Image Formats
 
 There are also three main image file formats:
 

@@ -3,18 +3,15 @@ layout: agenda
 title: Page Layout
 ---
 
-Agenda
-------
+## Agenda
 
-* Classes and IDs <small>(as a class)</small>
-* Page Layout with Float and Clear <small>(as a class)</small>
-* Using Float for a Nav <small>(as a class)</small>
-* Getting Started with the Fashion Blog Redesign <small>(in pairs)</small>
-* Fashion Blog <small>(in pairs)</small>
+- Classes and IDs <small>(as a class)</small>
+- Page Layout with Float and Clear <small>(as a class)</small>
+- Using Float for a Nav <small>(as a class)</small>
+- Getting Started with the Fashion Blog Redesign <small>(in pairs)</small>
+- Fashion Blog <small>(in pairs)</small>
 
-
-Starter Files
--------------
+## Starter Files
 
 ### Classes and IDs <small>([download]({{ site.baseurl }}/starters/classes_and_ids.zip))</small>
 
@@ -28,16 +25,13 @@ We'll start looking at how to decide when to use these flexible features of HTML
 
 We'll be building out a redesign for our fashion blog.
 
-
-
-Before Class
-------------
+## Before Class
 
 Floats are difficult to get used to, possibly the mind-fuckiest thing we will work on in class. For that reason, please give these articles a read before class on Monday, preferably twice each:
 
-* [All About Floats](https://css-tricks.com/all-about-floats/) by Chris Coyier
-* [CSS Floats 101](https://alistapart.com/article/css-floats-101) by Noah Stokes
+- [All About Floats](https://css-tricks.com/all-about-floats/) by Chris Coyier
+- [CSS Floats 101](https://alistapart.com/article/css-floats-101) by Noah Stokes
 
-This is funky material, and is a sticky point for everyone (and I mean *everyone*). The truth is that using `float` and `clear` for page layouts is essentially a hack, but for now, it's the best option we have.
+This is funky material, and is a sticky point for everyone (and I mean _everyone_). The truth is that using `float` and `clear` for page layouts is essentially a hack, but for now, it's the best option we have.
 
 We will be looking at this more in class, but things will definitely go a bit smoother with a head start.

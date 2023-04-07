@@ -3,16 +3,13 @@ layout: agenda
 title: More Responsive
 ---
 
-Agenda
-------
+## Agenda
 
-* Wireframe for a responsive version of Startup Matchmaker homepage
-* Using jQuery with responsive sites
-* Build the wireframe for the browser
+- Wireframe for a responsive version of Startup Matchmaker homepage
+- Using jQuery with responsive sites
+- Build the wireframe for the browser
 
-
-Starter Files
--------------
+## Starter Files
 
 We'll be starting from scratch with our code, but the original build of the Startup Matchmaker site will serve as our guide:
 

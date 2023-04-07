@@ -3,20 +3,17 @@ layout: homework
 title: Final Project Proposal
 ---
 
-Assignment
-----------
+## Assignment
 
 Please submit a written description of what you'd like to build for you final project for the class, accompanied by wireframes to give us a better idea and to use as a starting point.
 
-Keep in mind that you'll be building this using what you know of HTML, CSS, and JavaScript. I don't require you to lean heavily on all three for your projects. You may want to build a responsive site that has a heavy dose of CSS work but little or no JS. On the other hand, you may want to make a game that's  light on CSS, but will require a lot of JS logic. The important thing is that you pick something that you're going to feel engaged working on, and motivated to build.
+Keep in mind that you'll be building this using what you know of HTML, CSS, and JavaScript. I don't require you to lean heavily on all three for your projects. You may want to build a responsive site that has a heavy dose of CSS work but little or no JS. On the other hand, you may want to make a game that's light on CSS, but will require a lot of JS logic. The important thing is that you pick something that you're going to feel engaged working on, and motivated to build.
 
-If you're shooting too high, we'll tell you, and ask that you cut back. We'd prefer this to having to ask you to challenge yourself more. Pick something that you *want* to do.
-
+If you're shooting too high, we'll tell you, and ask that you cut back. We'd prefer this to having to ask you to challenge yourself more. Pick something that you _want_ to do.
 
 ### Description
 
 Your description need not be overly lengthy, but please try to provide us enough detail to understand your intentions. In general, I'd say these should be roughly 2 paragraphs, often accompanied by some bullet points.
-
 
 ### Wireframes
 

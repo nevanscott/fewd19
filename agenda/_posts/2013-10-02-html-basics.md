@@ -5,12 +5,12 @@ title: HTML Basics
 
 ## Agenda
 
-* Intros and Orientation
-* Ice Breaker
-* Web Development WTF?
-* Sublime Text
-* Basic HTML
-* Lab (time permitting)
+- Intros and Orientation
+- Ice Breaker
+- Web Development WTF?
+- Sublime Text
+- Basic HTML
+- Lab (time permitting)
 
 Today's class is primarily about getting situated and setting the stage for the course ahead of us. We will get to know each other better so that we can all feel more comfortable helping each other out and asking questions throughout the class. Every good developer I know got good in the same way: lots of practice, and having a strong peer group that they could bat ideas around with.
 

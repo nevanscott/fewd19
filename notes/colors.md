@@ -6,20 +6,15 @@ categories: notes
 tags: CSS
 ---
 
-Colors in CSS
-=============
+# Colors in CSS
 
 Colors can be specified in CSS in a variety of ways:
 
-
-Color Keywords
---------------
+## Color Keywords
 
 These are used less frequently, but are handy for basic colors like `black` and `white`. There are quite a few of these, please consult the <a href="https://msdn.microsoft.com/en-us/library/ie/aa358802(v=vs.85).aspx">MSDN Documentation</a> for a more complete list.
 
-
-Hex Codes (RGB)
----------------
+## Hex Codes (RGB)
 
 "Hex" values are so-called because they use hexadecimal, or base-16, to describe the color values for red, green, and blue. Each of the 3 color values is expressed by two hexadecimal digits, from `00` (no color) to `FF` (full color), and are written in the order red, green, then blue, after an initial `#` sign.
 
@@ -27,9 +22,7 @@ Thus `#FF0000` is red (full red, no green, no blue), `#00FF00` is green (no red,
 
 Hex values can be abbreviated to only 3 digits if each digit is doubled. So `#FFFFFF` (white) can be expressed more succinctly as `#FFF`, and `#000000` (black) can be expressed as `#000`. `#FA6198`, however, cannot be abbreviated without altering the color.
 
-
-RGB Color Values
-----------------
+## RGB Color Values
 
 These express exactly the same range of colors as in Hex, but do so using decimal rather than hexadecimal, in this format: `rgb(0,0,0)`. The first value is red, the second green, the third blue -- the same order as with Hex. Each value can range from 0 to 255, which expresses the same number of color steps as 00 to FF in base-16.
 
@@ -37,11 +30,9 @@ FF in base-16 is equivalent to 255 in base-10.
 
 In RGB, `rgb(0,0,0)` is black, `rgb(255,255,255)` is white, `rgb(255,0,0)` is red, etc.
 
-White-space is allowed *inside* the parentheses, so `rgb(255, 0, 0)` will do just as well.
+White-space is allowed _inside_ the parentheses, so `rgb(255, 0, 0)` will do just as well.
 
-
-RGBa Colors
------------
+## RGBa Colors
 
 RGBa works identically to RGB, expect that it takes a 4th value called the "alpha" or "alpha channel" value. This is a value between 0 and 1 which will be used to determine a color's opacity on the page, with 0 being completely transparent, and 1 being solid. 0.5 or .5 is 50% opacity.
 
@@ -49,9 +40,7 @@ Thus, `rgba(0,0,0,.25)` is black at 25% opacity and `rgba(255, 255, 255, 0.8)` i
 
 The alpha value can be in decimal form but cannot use a percentage. When a decimal is used, the leading zero is optional.
 
-
-HSL Colors
-----------
+## HSL Colors
 
 These use a similar notation to RGB values, but specify colors using hue, saturation, and lightness.
 
@@ -63,9 +52,7 @@ These use a similar notation to RGB values, but specify colors using hue, satura
 
 As an example, red is `hsl(0, 100%, 50%)`, which is equivalent to `#FF0000`.
 
-
-HSLa Colors
------------
+## HSLa Colors
 
 As with RGBa, HSLa is exactly like HSL for the first 3 values, but takes a 4th alpha-channel value.
 

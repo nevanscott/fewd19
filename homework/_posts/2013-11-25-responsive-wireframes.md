@@ -3,8 +3,7 @@ layout: homework
 title: Responsive Wireframes
 ---
 
-Assignment
-----------
+## Assignment
 
 Please build out responsive sites based on the wireframes provided below.
 
@@ -12,18 +11,16 @@ Please build out responsive sites based on the wireframes provided below.
 
 Included in the PDF, you'll find three sets of wireframes:
 
-* Homework
-* Challenge
-* Impossible
+- Homework
+- Challenge
+- Impossible
 
-
-Details
--------
+## Details
 
 If you'd like some hopefully helpful guidance, here are my versions of the wireframes that were assigned in class:
 
-* [Wireframe 1](https://codepen.io/nevan/pen/CLhzG)
-* [Wireframe 2](https://codepen.io/nevan/pen/fFHmA)
+- [Wireframe 1](https://codepen.io/nevan/pen/CLhzG)
+- [Wireframe 2](https://codepen.io/nevan/pen/fFHmA)
 
 ### Homework
 
