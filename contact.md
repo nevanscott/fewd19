@@ -4,30 +4,25 @@ permalink: contact/
 title: Get in Touch
 ---
 
-Get in Touch
-============
+# Get in Touch
 
-
-The Team
---------
+## The Team
 
 **Nevan Scott**
-nevan@nevanscott.com
+<nevan@nevanscott.com>
 
 **Patrick DePuydt**
-prdepuydt@gmail.com
+<prdepuydt@gmail.com>
 
 **Sebastian Soler**
-sebastian.a.soler@gmail.com
+<sebastian.a.soler@gmail.com>
 
-
-General Assembly
-----------------
+## General Assembly
 
 **Daniella Kisza**
 Producer
-daniella@generalassemb.ly
+<daniella@generalassemb.ly>
 
 **Charmaine Lacsina**
 Producer
-charmaine@generalassemb.ly
+<charmaine@generalassemb.ly>
